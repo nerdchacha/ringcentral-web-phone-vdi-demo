@@ -1,0 +1,29 @@
+{
+  "name": "webphone-vdi-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server --config webpack.config.js --progress --color"
+  },
+  "dependencies": {
+    "bootstrap": "^3.4.1",
+    "copy-webpack-plugin": "^10.2.4",
+    "html-webpack-plugin": "^5.5.0",
+    "jquery": "^3.6.0",
+    "process": "^0.11.10",
+    "querystring-es3": "^0.2.1",
+    "ringcentral": "^3.3.0",
+    "ringcentral-web-phone": "https://github.com/nerdchacha/ringcentral-web-phone.git#wp/release/0.9.0-beta",
+    "@ringcentral/webadapter-vdisdh": "git+ssh://git@git.ringcentral.com:rcvdi/webAdapter-vdisdh#vdi_upgrade",
+    "terser-webpack-plugin": "^5.3.1",
+    "ts-loader": "^9.3.0",
+    "typescript": "^4.6.4",
+    "webpack": "^5.72.1",
+    "webpack-cli": "^4.9.2",
+    "webpack-dev-server": "^4.9.0"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
